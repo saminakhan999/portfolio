@@ -1,4 +1,5 @@
 import React from "react";
+import TypeAnimation from "react-type-animation";
 
 function Welcome() {
   return (
@@ -9,10 +10,14 @@ function Welcome() {
       <br></br>
       <div className="welcomeContainer">
         <div className="welcomeTextContainer">
-          <h1 className="welcomeTitle">
-            Hi there! I'm Samina and I'm training to become a Fullstack
-            Developer with futureproof
-          </h1>
+          <TypeAnimation
+            className="welcomeTitle"
+            cursor={false}
+            sequence={["Hi there! I'm Samina and I'm training to become a Fullstack Developer with futureproof", 1000, ""]}
+            wrapper="h1"
+            repeat={Infinity}
+          />
+    
           <p className="welcomePara">
             This page is currently under construction but check back on the 19th
             March to see the finished product!
