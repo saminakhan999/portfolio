@@ -21,7 +21,7 @@ function Projects() {
       <div className="realProjectsContainer">
         <div className="projectsTop">
           <h1 className="projectsTitle">My Projects</h1>
-          <p className="projectsPara">Coming soon</p>
+          <p className="projectsPara">Here are some of my most recent projects! Click on each one to view a demo of the site or on the github icon to view its repository!</p>
         </div>
         <div className="slider">
           <SimpleImageSlider
