@@ -338,3 +338,9 @@ a.active {
   width: 40px;
 }
 
+
+.contactIcon {
+  width: 30px;
+  margin-left: 30px;
+  margin-bottom:-5px;
+}

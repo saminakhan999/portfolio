@@ -17,9 +17,36 @@ function Contact() {
           </p>
           <br></br>
           <br></br>
-          <h1>Connect with me on Linkedin!</h1>
-          <h1>Check out my projects on Github!</h1>
-          <h1>Feel free to drop me an email!</h1>
+          <h1>
+            Connect with me on Linkedin!
+            <a href="https://www.linkedin.com/in/samina-khan1997/">
+              <img
+                className="contactIcon"
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+              ></img>
+            </a>
+          </h1>
+          <br></br>
+          <h1>
+            Check out my projects on Github!
+            <a href="https://github.com/saminakhan999">
+              <img
+                className="contactIcon"
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              />
+            </a>
+          </h1>
+          <br></br>
+          <h1>
+            Feel free to drop me an email!{" "}
+            <a href="mailto:samina.khan9999@gmail.com? subject=HTML link">
+              <img
+                className="contactIcon"
+                src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
+              ></img>
+            </a>
+          </h1>
+          <br></br>
           <h1>
             You are welcome to send me a message using the form below and I'll
             get back to you within 24 hours!
