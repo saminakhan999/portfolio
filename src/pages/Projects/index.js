@@ -1,14 +1,12 @@
 import React from "react";
-import SimpleImageSlider from "react-simple-image-slider";
+import { Carousel } from "3d-react-carousal";
 
-const images = [
-  { url: "https://i.postimg.cc/WNDyJCwm/supercoders.png" },
-  {
-    url: "https://i.postimg.cc/wjjS7vBF/Screenshot-2022-03-27-at-18-41-48.png",
-  },
-  {
-    url: "https://i.postimg.cc/LRFbCC9X/Screenshot-2022-03-27-at-18-45-35.png",
-  },
+
+
+let slides = [
+  <img src="https://i.postimg.cc/WNDyJCwm/supercoders.png" alt="1" />,
+  <img src="https://i.postimg.cc/wjjS7vBF/Screenshot-2022-03-27-at-18-41-48.png" alt="2" />,
+  <img src="https://i.postimg.cc/LRFbCC9X/Screenshot-2022-03-27-at-18-45-35.png" alt="3" />,
 ];
 
 function Projects() {
@@ -25,17 +23,18 @@ function Projects() {
             Here are some of my most recent projects! Click on each one to view
             a demo of the site or on the github icon to view its repository!
           </p>
-        </div>
-        <div className="slider">
-          <SimpleImageSlider
-            width={896}
-            height={504}
-            images={images}
-            showBullets={true}
-            showNavs={true}
-          />
+          <br></br>
+          <br></br>
+          <br></br>
+          <Carousel slides={slides} autoplay={true} interval={2500} />
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
