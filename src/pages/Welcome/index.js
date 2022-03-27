@@ -17,7 +17,6 @@ function Welcome() {
             wrapper="h1"
             repeat={Infinity}
           />
-    
           <p className="welcomePara">
             This page is currently under construction but check back on the 30th
             March to see the finished product!
