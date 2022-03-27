@@ -311,3 +311,9 @@ a.active {
   line-height: 1.625;
   font-size: 20px;
 }
+
+
+.slider {
+  position: absolute;
+  left: 20%;
+}
