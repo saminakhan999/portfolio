@@ -4,9 +4,22 @@ import { Carousel } from "3d-react-carousal";
 
 
 let slides = [
-  <img src="https://i.postimg.cc/WNDyJCwm/supercoders.png" alt="1" />,
-  <img src="https://i.postimg.cc/wjjS7vBF/Screenshot-2022-03-27-at-18-41-48.png" alt="2" />,
-  <img className = "projectImage" src="https://i.postimg.cc/LRFbCC9X/Screenshot-2022-03-27-at-18-45-35.png" alt="3" />,
+  <a href="https://super-coders.netlify.app/">
+    <img src="https://i.postimg.cc/WNDyJCwm/supercoders.png" alt="1" />
+  </a>,
+  <a href="https://habitat-tracker.netlify.app/">
+    <img
+      src="https://i.postimg.cc/wjjS7vBF/Screenshot-2022-03-27-at-18-41-48.png"
+      alt="2"
+    />
+  </a>,
+  <a href="https://ultimate-quiz-game.netlify.app/">
+    <img
+      className="projectImage"
+      src="https://i.postimg.cc/LRFbCC9X/Screenshot-2022-03-27-at-18-45-35.png"
+      alt="3"
+    />
+  </a>,
 ];
 
 
@@ -22,8 +35,7 @@ function Projects() {
         <div className="projectsTop">
           <h1 className="projectsTitle">My Projects</h1>
           <p className="projectsPara">
-            Here are some of my most recent projects! Click on each one to view
-            a demo of the site or on the github icon to view its repository!
+            Here are some of my most recent projects! Click on any of the projects to visit the site or on the github icon to view its repository!
           </p>
           <br></br>
           <br></br>
