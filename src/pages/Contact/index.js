@@ -38,7 +38,7 @@ function Contact() {
           </h1>
           <br></br>
           <h1>
-            Feel free to drop me an email!{" "}
+            Feel free to drop me an email!
             <a href="mailto:samina.khan9999@gmail.com? subject=HTML link">
               <img
                 className="contactIcon"
@@ -48,9 +48,26 @@ function Contact() {
           </h1>
           <br></br>
           <h1>
-            You are welcome to send me a message using the form below and I'll
+            You're welcome to send me a message using the form below and I'll
             get back to you within 24 hours!
           </h1>
+          <br></br>
+          <form
+            action="mailto:samina.khan9999@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm"
+          >
+            <label htmlFor="name"> Name: </label>
+            <input id="name" type="text" size="19" name="ContactName"></input>
+            <br></br>
+            <label htmlFor="email"> Email: </label>
+            <input id="email" type="email" size="19" name="ContactName"></input>
+            <br></br>
+            <label htmlFor="message"> Message: </label>
+            <textarea id="message" name="ContactCommentt" rows="6" cols="20"></textarea> <br></br>
+            <input type="submit" value="Submit"></input>
+          </form>
         </div>
       </div>
     </section>
