@@ -57,6 +57,7 @@ main {
   background-color: whitesmoke;
   color: #9ca3af;
   height: 500px;
+  margin-bottom: 400px;
 }
 
 .realProjectsContainer {
@@ -319,3 +320,20 @@ a.active {
 }
 
 @import "react-alice-carousel/lib/alice-carousel.css";
+
+
+.allSkills {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+
+.projectImage {
+  height: 65vh;
+}

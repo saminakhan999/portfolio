@@ -11,7 +11,7 @@ function Contact() {
       <div className="realContactContainer">
         <div className="contactTop">
           <h1 className="contactTitle">Contact Me</h1>
-          <p className="contactPara">Coming soon</p>
+          <p className="contactPara">Thank you so much for visiting my page! Please feel free to contact me about anything, I look forward to hearing from you! </p>
         </div>
       </div>
     </section>

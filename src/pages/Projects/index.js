@@ -6,8 +6,10 @@ import { Carousel } from "3d-react-carousal";
 let slides = [
   <img src="https://i.postimg.cc/WNDyJCwm/supercoders.png" alt="1" />,
   <img src="https://i.postimg.cc/wjjS7vBF/Screenshot-2022-03-27-at-18-41-48.png" alt="2" />,
-  <img src="https://i.postimg.cc/LRFbCC9X/Screenshot-2022-03-27-at-18-45-35.png" alt="3" />,
+  <img className = "projectImage" src="https://i.postimg.cc/LRFbCC9X/Screenshot-2022-03-27-at-18-45-35.png" alt="3" />,
 ];
+
+
 
 function Projects() {
   return (
@@ -29,6 +31,51 @@ function Projects() {
           <Carousel slides={slides} autoplay={true} interval={2500} />
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
