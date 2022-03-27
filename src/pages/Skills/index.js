@@ -8,9 +8,22 @@ function Skills() {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      
+        <br></br>
         <div className="skillsIntro">
           <h1 className="skillsTitle">Technical Skills</h1>
-          <p className="skillsPara">Coming soon</p>
+          <p className="skillsPara">Here are the skills and technologies that I use!</p>
         </div>
       </div>
     </section>
