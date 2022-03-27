@@ -97,22 +97,23 @@ function Skills() {
           <br></br>
           <br></br>
           <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <div className="allSkills">
             <AliceCarousel
-              autoPlay
-              infinite
-              mouseTracking
-              items={items}
-              responsive={responsive}
-              controlsStrategy="alternate"
-            />
+                autoPlay
+                infinite
+                mouseTracking
+                items={items}
+                responsive={responsive}
+                controlsStrategy="alternate"/>
           </div>
         </div>
       </div>
-
-     
-      <br></br>
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
