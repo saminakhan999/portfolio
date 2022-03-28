@@ -82,12 +82,6 @@ function Skills() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <div className="skillsIntro">
           <h1 className="skillsTitle">Technical Skills</h1>
           <p className="skillsPara">
