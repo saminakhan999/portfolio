@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { useSprings, animated, interpolate } from "react-spring";
-import { useGesture } from "react-use-gesture";
+import React from "react";
+import { BusinessCard } from "../../components"
 
 function Contact() {
   return (
@@ -19,7 +18,7 @@ function Contact() {
           <br></br>
           <br></br>
           <h1>
-            Connect with me on Linkedin!
+            Connect with me on LinkedIn!
             <a href="https://www.linkedin.com/in/samina-khan1997/">
               <img
                 className="contactIcon"
@@ -49,7 +48,9 @@ function Contact() {
           </h1>
           <br></br>
           <br></br>
-          <h1>Take my business card!</h1>
+          <h1>Please use your mouse to pick up my business card!</h1>
+          <div className="cardContainer"><BusinessCard/></div>
+          
         </div>
       </div>
     </section>

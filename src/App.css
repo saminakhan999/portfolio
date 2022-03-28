@@ -344,3 +344,40 @@ a.active {
   margin-left: 30px;
   margin-bottom:-5px;
 }
+
+
+.card {
+  background-color: whitesmoke;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 45vh;
+  max-width: 300px;
+  height: 27vh;
+  max-height: 570px;
+  will-change: transform;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.cardPosition {
+  position: absolute;
+  width: 100vw;
+  height: 60vh;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+    sans-serif;
+  overflow: hidden;
+}
