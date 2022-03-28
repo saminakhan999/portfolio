@@ -370,7 +370,7 @@ a.active {
 .cardPosition {
   position: absolute;
   width: 100vw;
-  height: 60vh;
+  height: 40vh;
   will-change: transform;
   display: flex;
   align-items: center;
