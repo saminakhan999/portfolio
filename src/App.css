@@ -381,3 +381,8 @@ a.active {
     sans-serif;
   overflow: hidden;
 }
+
+
+.contactIcon:hover {
+  opacity: 0.5;
+}
