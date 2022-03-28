@@ -22,7 +22,7 @@ function Welcome() {
             repeat={Infinity}
           />
           <p className="welcomePara">
-            I'm a recent MSci Mathematics Graduate from King's College London who is now exploring the exciting world of Technology! My goal is to join an exciting project with a company whose goal is to make a person's life as easy and efficient as possible and use both my analytical and problem-solving skills to advance this company whilst furthering my programming knowledge.
+            I'm a recent MSci Mathematics Graduate from King's College London who is now exploring the exciting world of Technology! I am looking to join an exciting project with a company whose goal is to make a person's life as easy and efficient as possible and use both my analytical and problem-solving skills to advance this company whilst furthering my programming knowledge.
           </p>
         </div>
       </div>
