@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -8,11 +9,17 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 main {
   background-color: whitesmoke;
   color: #9ca3af;
+}
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .skillsContainer {
