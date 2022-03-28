@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { useSprings, animated, interpolate } from "react-spring";
+import { useGesture } from "react-use-gesture";
 
 function Contact() {
   return (
