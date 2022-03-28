@@ -5,8 +5,6 @@ function Contact() {
     <section id="contact" className="contactContainer">
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
 
       <div className="realContactContainer">
         <div className="contactTop">
@@ -15,6 +13,7 @@ function Contact() {
             Thank you so much for visiting my page! Please feel free to contact
             me about anything, I look forward to hearing from you!
           </p>
+          <br></br>
           <br></br>
           <br></br>
           <h1>
@@ -46,6 +45,9 @@ function Contact() {
               ></img>
             </a>
           </h1>
+          <br></br>
+          <br></br>
+          <h1>Take my business card!</h1>
         </div>
       </div>
     </section>
