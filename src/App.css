@@ -27,6 +27,7 @@ p {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   height: 500px;
+  margin-bottom: 50px;
 }
 
 .skillsIntro {
@@ -114,7 +115,7 @@ p {
 .contactContainer {
   background-color: whitesmoke;
   color: #9ca3af;
-  height: 800px;
+  height: 900px;
 }
 
 .realContactContainer {
@@ -163,7 +164,7 @@ p {
 .experienceContainer {
   background-color: whitesmoke;
   color: #9ca3af;
-  height: 400px;
+  height: 450px;
 }
 
 .realExperienceContainer {
