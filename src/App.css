@@ -421,6 +421,7 @@ a.active {
   text-align: justify;
   position: relative;
   display: inline;
+  margin-top: 20px;
 }
 
 #futureproof {
