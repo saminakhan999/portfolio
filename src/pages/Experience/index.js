@@ -10,8 +10,10 @@ function Experience() {
       <div className="realExperienceContainer">
         <div className="experienceTop">
           <h1 className="experienceTitle">My Work Experience</h1>
-          <p className="experiencePara">Coming soon</p>
+          {/* <p className="experiencePara">Coming soon</p> */}
         </div>
+        <span className="workbutton">Titanium</span>
+        <span className="workbutton">futureproof</span>
       </div>
     </section>
   );
