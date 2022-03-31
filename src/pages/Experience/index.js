@@ -25,7 +25,7 @@ function Experience() {
         </div>
       </div>
       <span className="workbutton" onMouseEnter={onClickTutor}>
-        Titanium
+        Titanium Tutors
       </span>
       <span className="workbutton" onMouseEnter={onClickCode}>
         futureproof

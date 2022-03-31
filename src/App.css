@@ -163,7 +163,7 @@ p {
 .experienceContainer {
   background-color: whitesmoke;
   color: #9ca3af;
-  height: 450px;
+  height: 400px;
 }
 
 .realExperienceContainer {
@@ -187,7 +187,7 @@ p {
 }
 
 .experienceTitle {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: cadetblue;
   font-size: 1.875rem;
   line-height: 2.25rem;

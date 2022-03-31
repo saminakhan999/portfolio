@@ -48,7 +48,7 @@ function Contact() {
           </h1>
           <br></br>
           <br></br>
-          <h1>Please use your mouse to pick up my business card!</h1>
+          <h1>Use your mouse to pick up my business card!</h1>
           <div className="cardContainer"><BusinessCard/></div>
           
         </div>
