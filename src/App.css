@@ -163,7 +163,7 @@ p {
 .experienceContainer {
   background-color: whitesmoke;
   color: #9ca3af;
-  height: 400px;
+  height: 450px;
 }
 
 .realExperienceContainer {
@@ -180,7 +180,7 @@ p {
 
 .experienceTop {
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -416,19 +416,21 @@ a.active {
 
 
 #tutor {
-  width: 300px;
+  width: 250px;
   height: 200px;
   text-align: justify;
   position: relative;
   display: inline;
   margin-top: 20px;
+  font-size: 20px;
 }
 
 #futureproof {
-  width: 300px;
+  width: 250px;
   height: 200px;
   text-align: justify;
   position: relative;
   display: inline;
   margin-top: 20px;
+  font-size: 20px;
 }

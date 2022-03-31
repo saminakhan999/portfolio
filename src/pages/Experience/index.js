@@ -24,10 +24,10 @@ function Experience() {
           {/* <p className="experiencePara">Coming soon</p> */}
         </div>
       </div>
-      <span className="workbutton" onClick={onClickTutor}>
+      <span className="workbutton" onMouseEnter={onClickTutor}>
         Titanium
       </span>
-      <span className="workbutton" onClick={onClickCode}>
+      <span className="workbutton" onMouseEnter={onClickCode}>
         futureproof
       </span>
       <div></div>
@@ -36,7 +36,7 @@ function Experience() {
       <br></br>
       {showTutor ? (
         <span id="tutor">
-          Titanium Tutors | Mathematics Tutor | June 2018 – January 2022
+          <b>Titanium Tutors | Mathematics Tutor | June 2018 – January 2022 </b>
           <br></br>- Plan and develop lessons to provide Mathematics tuition to
           students
           <br></br>- Monitor and communicate student progression and goals to
@@ -45,9 +45,9 @@ function Experience() {
         </span>
       ) : showCode ? (
         <div id="futureproof">
-          Futureproof | Tech Trainee | January 2022 – Present <br></br>- 13-week
-          bootcamp covering the main areas of web development including
-          JavaScript, HTML/CSS, Databases, and Python and applying these skills
+          <b>Futureproof | Trainee Fullstack Developer | January 2022 – Present </b> <br></br>-
+          13-week bootcamp covering the main areas of web development including
+          JavaScript, HTML/CSS, <br></br> Databases, and Python and applying these skills
           to various projects every week
         </div>
       ) : null}
